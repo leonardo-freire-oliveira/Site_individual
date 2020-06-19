@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  /*
+    Parte ESTAMOS AQUI 
+  */
+
+  .estamosAqui{
+    width: 100%;
+    float: left;
+  }
+
+  .estamosAqui h1{
+    color: #8b008b;
+    padding-left: 90px;
+  }
+
+  .estamosAqui p{
+    width: 40%;
+    text-align: justify;
+    margin-left: 100px;
+    float: left;
+  }
+
+  .estamosAqui .mapa_inicio{
+    width: 40%;
+    height: 300px;
+    margin: -50px 50px 30px 30px;
+  }
+
+  /*
+    Parte FORMULARIO
+  */
+
+  .form_contato{
+    width: 100%;
+    float: left;
+    background: linear-gradient(90deg, rgba(11,9,51,1) 0%, rgba(116,9,121,1) 35%, rgba(255,0,198,1) 100%);
+  }
+
+  .form_contato h1{
+    color: #fff;
+    text-align: center;
+  }
+
+  .form_contato .form{
+    width: 30%;
+    padding: 10px;
+    margin: 30px 30px 0 90px;
+  }
+
+  .form_contato input{
+    margin-top: 20px;
+    width: 100%;
+    border: #8b008b 3px solid;
+    height: 20px; 
+    text-align: center;
+    outline: none;
+  }
+
+  .form_contato select{
+    width: 100%;
+    height: 20px;
+    margin: 20px 20px 30px 0;
+    background-color: #fff;
+    cursor: pointer;
+    float: left;
+  }
+
+  .form_contato textarea{
+    width: 50%;
+    height: 115px;
+    float: right;
+    text-align: center;
+    margin: -90px 90px 50px 30px;
+  }
+  .form_contato button{
+    float: left;
+    margin: 20px 0 90px 30%;
+    width: 40%;
+    background: #8b008b;
+    color: #fff;
+    border: #fff 3px solid;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 10px;
+  }
+
+  /*
+    Parte TIME
+  */
+
+  .time{
+    width: 100%;
+    height: 700px;
+    float: left;
+  }
+  
+  .time h1{
+    padding: 30px;
+    text-align: center;
+    color: #000;
+  }
+  
+  .card{
+    float: left;
+    margin-top: 80px;
+    margin-left:100px;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    background: linear-gradient(90deg, rgba(11,9,51,1) 0%, rgba(116,9,121,1) 35%, rgba(255,0,198,1) 100%);
+    border-radius:  0 30px;
+  }
+  
+  .card h2{
+    text-align: center;
+    color: #fff; 
+  }
+  
+  .card .foto{
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    border-radius: 50%;
+  }
+  
+  .card .redes{
+    margin-left: 0;
+    padding: 2px;
+    display: inline;
+  }
+  .redes {
+    margin: 50px;
+  }
+  
+  .redes .fa {
+    margin-left: 40px;
+    color: #fff;
+    text-align: center;
+    font-size: 15pt;
+  }
+  
+  .redes a :hover {
+    color: #000;
+  }  

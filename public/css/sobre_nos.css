@@ -1,0 +1,275 @@
+.header {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100px;
+    border-bottom: #ff0000 solid;
+}
+/* 
+SIDEBAR */
+
+.SideBar {
+    height: 0px;
+    width: 15%;
+    background-color: #ff0000;
+    position: fixed;
+    overflow-x: hidden;
+    transition: .3s ease;
+    float: left;
+}
+
+.SideBar a {
+    display: block;
+    padding: 10px;
+    text-decoration: solid ;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.SideBar a:hover{
+    color: #ff0000;
+    background-color: #ffffff;
+}
+
+.IconOpen,.IconClose {
+    font-size: 30px;
+    cursor: wait;
+    padding: 10px 15px;
+    border: none;
+    color: #ffffff;
+    float: left;
+}
+
+.IconOpen{
+    background-color:#ff0000;
+    margin: 0 0 0 20px;
+}
+
+.IconClose{
+    margin-left: 82%;
+    text-decoration: none;
+}
+
+/* SIDEBAR */
+
+.pageIcon{
+    height: 85px;
+    width: 85px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    margin-left: 150px;
+}
+
+.title{
+    font-family: monospace;
+    color: #ff0000;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    margin: 0 730px 0 0; 
+    padding: 0px;
+    border: 0px;
+    float: right;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    margin: 0 auto 0 auto;
+    max-width: 980px;
+}
+
+.showcase{
+    width: 100%;
+    height: 1800px;
+    background-image: url(https://cdn.record.pt/images/2020-04/img_920x518$2020_04_27_21_00_31_1692208.jpg);
+    background-size: cover;
+    background-color: #ff0000;
+    margin: 0 auto;
+}
+
+.bloco_1{
+    height: 300px;
+    width: 100%;
+    background-color:#970000 ;
+    border-right: #ffffff 5px solid;
+}
+
+.bloco_1 .img_bloco_1{
+    height: 100%;
+    width: 50%;
+    float: left;
+    margin-right: 15px;
+    border-right: #ffffff 5px solid;
+}
+    
+.bloco_1 .text_bloco_1{
+    margin: 0px;
+    padding-top: 5px;
+    font-size: 18px;
+    font-family: American Typewriter, serif;
+    color: #ffffff;
+}
+
+.cor_title{
+    color: #FFD700;
+}
+
+.bloco_2{
+    height: 300px;
+    width: 100%;
+    background-color:#970000 ;
+    border-left: #ffffff 5px solid;
+}
+
+.bloco_2 .img_bloco_2{
+    height: 100%;
+    width: 50%;
+    float: right;
+    /* margin-left: 15px; */
+    border-left: #ffffff 5px solid;
+}
+    
+.bloco_2 .text_bloco_2{
+    margin: 0px;
+    margin-left: 15px;
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: American Typewriter, serif;
+    color: #ffffff;
+}
+
+.bloco_3{
+    height: 300px;
+    width: 100%;
+    background-color:#970000 ;
+    border-right: #ffffff 5px solid;
+}
+
+.bloco_3 .img_bloco_3{
+    height: 100%;
+    width: 50%;
+    float: left;
+    margin-right: 15px;
+    border-right: #ffffff 5px solid;
+}
+    
+.bloco_3 .text_bloco_3{
+    margin: 0px;
+    padding-top: 5px;
+    font-size: 13.5px;
+    font-family: American Typewriter, serif;
+    color: #ffffff;
+}
+
+.bloco_4{
+    height: 300px;
+    width: 100%;
+    background-color:#970000 ;
+    border-left: #ffffff 5px solid;
+}
+
+.bloco_4 .img_bloco_4{
+    height: 100%;
+    width: 50%;
+    float: right;
+    /* margin-left: 15px; */
+    border-left: #ffffff 5px solid;
+}
+    
+.bloco_4 .text_bloco_4{
+    margin: 0px;
+    margin-left: 15px;
+    padding-top: 7px;
+    font-size: 13px;
+    font-family: American Typewriter, serif;
+    color: #ffffff;
+}
+
+.bloco_5{
+    height: 300px;
+    width: 100%;
+    background-color:#970000 ;
+    border-right: #ffffff 5px solid;
+}
+
+.bloco_5 .img_bloco_5{
+    height: 100%;
+    width: 50%;
+    float: left;
+    margin-right: 15px;
+    border-right: #ffffff 5px solid;
+}
+    
+.bloco_5 .text_bloco_5{
+    margin: 0px;
+    padding-top: 5px;
+    font-size: 12px;
+    font-family: American Typewriter, serif;
+    color: #ffffff;
+}
+.bloco_6{
+    height: 300px;
+    width: 100%;
+    background-color:#970000 ;
+    border-left: #ffffff 5px solid;
+}
+
+.bloco_6 .img_bloco_6{
+    height: 100%;
+    width: 50%;
+    float: right;
+    border-left: #ffffff 5px solid;
+}
+    
+.bloco_6 .text_bloco_6{
+    margin: 0px;
+    margin-left: 15px;
+    padding-top: 8px;
+    font-size: 16px;
+    font-family: American Typewriter, serif;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #ff0000;
+    width: 100%;
+    height: 200px;
+    border-top: #ffffff 5px solid;
+    margin-top: 200px;
+    display: block;
+    text-align: center;
+}
+
+.img_footer{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+
+.footer .fed{
+    font-size: 10px;
+}
+

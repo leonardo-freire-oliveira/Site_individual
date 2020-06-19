@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liverpool FanBase</title>
+    <link rel="shortcut icon" href="./img/liv_icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/contato.css">
+</head>
+<body>
+    <div class="header">
+        <div class="SideBar" id="SideBar_menu">
+            <a class="IconClose" onclick="closeNav()" href="#">X</a>
+            <a href="./sobre_nos.html">Sobre o clube</a>
+            <a href="./estatisticas.html">Estátisticas</a>
+            <a href="./elenco.html">Elenco Atual</a>
+            <a href="#">Contato</a>
+        </div>
+            <a href="#" class="IconOpen" onclick="openNav()">--</a>
+            <h1 class="title">Liverpool F.C.</h1>
+            <a href="./index.html"><img class="pageIcon" src="./img/badget_top.png"></a>
+         </div>
+
+    <div class="showcase">
+        <img src="./img/images.jpg">
+        <div class="container">
+            <div class="cadastro">
+                <form onsubmit="enviaContatoProBanco()">
+                    <div id="mensagemErro" class="m-erro"></div>
+                <br><br><br>
+         <span class="txt_cadastro">NOME : </span><input id="nome_cadastro" class="cadastro_input" placeholder="Digite aqui:" required><br><br>
+         <span class="txt_cadastro">SOBRENOME : </span><input id="sobrenome_cadastro" class="cadastro_input" placeholder="Digite aqui:" required><br><br>
+         <span class="txt_cadastro">E-MAIL : </span><input type="email" id="email_cadastro" class="cadastro_input" placeholder="Digite aqui:" required><br><br>
+         <span class="txt_cadastro">SENHA : </span><input type="password" id="senha_cadastro" class="cadastro_input" placeholder="Digite aqui:" required><br><br>      
+         <span class="txt_cadastro">CONFIRME A SENHA : </span><input type="password" id="senha_cadastro2" class="cadastro_input" placeholder="Digite aqui:" required><br><br>
+         <span class="txt_cadastro">DATA DE NASCIMENTO : </span><input type="date" id="dtnasc_cadastro" class="cadastro_input" placeholder="aaaa/mm/dd" required><br><br>
+         <span class="txt_cadastro">SELECIONE SEU GENÊRO : </span><select id="select_cadastro" class="cadastro_input">
+            <option id="primeiro_select" class="cadastro_input">-----</option>
+            <option id="masculino_select" class="cadastro_input">Masculino</option>
+            <option id="feminino_select" class="cadastro_input">Feminino</option>
+            <option id="prefiro_nao_select" class="cadastro_input">Prefiro não responder</option>
+            <option id="outros_select" class="cadastro_input">Outros</option>
+        </select><br><br>
+        <div>
+            <p>Deseja receber novidades sobre os Reds?</p>
+            <label> 
+                <input type="checkbox" checked> Quero receber novidades!
+            </label>
+          </div>
+          <br><br><br>
+         <button onclick="cadastro()" class="botao_cadastro">CADASTRAR</button><br> 
+        </form>
+         <div id="div_mensagem"></div> 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+            <img src="./img/livbird_footer.png" class="img_footer">
+            <br>
+            <h3>Liverpool F.C. <br> 
+            <span class="fed">© Copyright 2020 The Liverpool Football Club and Athletic Grounds Limited.
+            All rights reserved.Developed and maintained by the LFC Technology and Transformation Team
+            Match Statistics supplied by Opta Sports Data Limited. 
+            Reproduced under licence from Football DataCo Limited. All rights reserved.
+            </span></h3>
+    
+        </div>
+    </div>
+    
+</body>
+</html>
+<script src="./js/contato.js">
+
+</script>
+
+
+

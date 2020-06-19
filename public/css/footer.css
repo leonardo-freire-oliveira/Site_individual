@@ -1,0 +1,28 @@
+/*
+  Parte FOOTER
+*/
+
+.footer{
+    width: 100%;
+    float: left;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .footer p{
+    padding: 90px;
+    float: left;
+  }
+  
+  .footer .fa{
+    color: #fff;
+    padding: 20px;
+  }
+  
+  
+  .mapa{
+    height: 250px;
+    width: 750px;
+    margin: 85px 50px 25px 50px;
+    
+  }
