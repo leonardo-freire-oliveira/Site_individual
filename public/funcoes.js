@@ -14,7 +14,7 @@ function verificar_autenticacao() {
     if (login_usuario == undefined)  {
         redirecionar_login();
     } else {
-        bemvindo_usuario.innerHTML = nome_usuario;
+        // bemvindo_usuario.innerHTML += nome_usuario;
         validar_sessao();
     }
     

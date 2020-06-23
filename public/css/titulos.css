@@ -1,5 +1,5 @@
 .header {
-    background-image: linear-gradient( #ffffff,#ff0000);
+    background-image: linear-gradient(to right, #ffffff,#ff0000);
     width: 100%;
     height: 100px;
     border-bottom: #ffffff 5px solid;
@@ -66,7 +66,7 @@ SIDEBAR */
     font-size: 50px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     margin: 0 730px 0 0; 
-    padding: 0px;
+    padding-top: 13px;
     border: 0px;
     float: right;
 }
@@ -94,12 +94,134 @@ body {
 
 .showcase{
     width: 100%;
-    height: 1000px;
+    height: 1500px;
     text-align: center;
     background-size: cover;
     background-color: #ff0000;
     margin: 0 auto;
 }
+
+.bloco_1{
+    height: 300px;
+    width: 100%;
+    background-color:#970000 ;
+    border-right: #ffffff 5px solid;
+}
+
+.bloco_1 .img_bloco_1{
+    height: 100%;
+    width: 50%;
+    float: left;
+    margin-right: 15px;
+    border-right: #ffffff 5px solid;
+}
+    
+.bloco_1 .text_bloco_1{
+    margin: 0px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: American Typewriter, serif;
+    color: #ffffff;
+}
+
+.cor_title{
+    color: #FFD700;
+}
+
+.bloco_2{
+    height: 300px;
+    width: 100%;
+    background-color:#970000 ;
+    border-left: #ffffff 5px solid;
+}
+
+.bloco_2 .img_bloco_2{
+    height: 100%;
+    width: 50%;
+    float: right;
+    /* margin-left: 15px; */
+    border-left: #ffffff 5px solid;
+}
+    
+.bloco_2 .text_bloco_2{
+    margin: 0px;
+    margin-left: 15px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: American Typewriter, serif;
+    color: #ffffff;
+}
+
+.bloco_3{
+    height: 300px;
+    width: 100%;
+    background-color:#970000 ;
+    border-right: #ffffff 5px solid;
+}
+
+.bloco_3 .img_bloco_3{
+    height: 100%;
+    width: 50%;
+    float: left;
+    margin-right: 15px;
+    border-right: #ffffff 5px solid;
+}
+    
+.bloco_3 .text_bloco_3{
+    margin: 0px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: American Typewriter, serif;
+    color: #ffffff;
+}
+
+.bloco_4{
+    height: 300px;
+    width: 100%;
+    background-color:#970000 ;
+    border-left: #ffffff 5px solid;
+}
+
+.bloco_4 .img_bloco_4{
+    height: 100%;
+    width: 50%;
+    float: right;
+    /* margin-left: 15px; */
+    border-left: #ffffff 5px solid;
+}
+    
+.bloco_4 .text_bloco_4{
+    margin: 0px;
+    margin-left: 15px;
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: American Typewriter, serif;
+    color: #ffffff;
+}
+
+.bloco_5{
+    height: 300px;
+    width: 100%;
+    background-color:#970000 ;
+    border-right: #ffffff 5px solid;
+}
+
+.bloco_5 .img_bloco_5{
+    height: 100%;
+    width: 50%;
+    float: left;
+    margin-right: 15px;
+    border-right: #ffffff 5px solid;
+}
+    
+.bloco_5 .text_bloco_5{
+    margin: 0px;
+    padding-top: 0px;
+    font-size: 12.5px;
+    font-family: American Typewriter, serif;
+    color: #ffffff;
+}
+
 
 
 
@@ -138,7 +260,7 @@ body {
     width: 100%;
     height: 200px;
     border-top: #ffffff 5px solid;
-    margin-top: 200px;
+    margin-top: 50px;
     display: block;
     text-align: center;
 }

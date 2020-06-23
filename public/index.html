@@ -6,19 +6,21 @@
     <title>Liverpool FanBase</title>
     <link rel="shortcut icon" href="./img/liv_icon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./css/index.css">
+    <script type="text/javascript" src="funcoes.js"></script>
 </head>
 <body>
     <div class="header">
     <div class="SideBar" id="SideBar_menu">
         <a class="IconClose" onclick="closeNav()" href="#">X</a>
         <a href="./sobre_nos.html">Sobre o clube</a>
-        <a href="./estatisticas.html">Estátisticas</a>
+        <a href="./titulos.html">Títulos</a>
         <a href="./elenco.html">Elenco Atual</a>
         <a href="./contato.html">Contato</a>
     </div>
         <a href="#" class="IconOpen" onclick="openNav()">--</a>
         <h1 class="title">Liverpool F.C.</h1>
         <a href="./index.html"><img class="pageIcon" src="./img/badget_top.png"></a>
+        <a onclick="logoff()" class="log_out">SAIR</a>
      </div>
 
 
@@ -27,7 +29,7 @@
     <br>
     <br>
     <br>
-    <h1 class="sctitulo">"O Maior da Inglaterra"</h1>
+    <h1 class="sctitulo" id="bemvindo_usuario">"O Maior da Inglaterra"</h1>
         <p class="paragrafo">
             O Liverpool Football Club ou L.F.C. é um clube de futebol, com sede na cidade de Liverpool, Noroeste da Inglaterra.
             Fundado em 1892, ingressou na Football League no ano seguinte e desde então atua no Anfield Road. Seu uniforme, que originalmente adotava camisas vermelhas e calções brancos, é todo vermelho desde 1965. 
@@ -54,7 +56,7 @@
 </div>
 
 <div class="team2">
-    <a href="#"><img src="./img/icon_titulos.jpg" class="icon_titulos"></a><br>
+    <a href="./titulos.html"><img src="./img/icon_titulos.jpg" class="icon_titulos"></a><br>
     <p class="txt_values">Titulos</p>
 </div>
 </div>
@@ -76,6 +78,9 @@
 
 <script src="./js/index.js">
 
+</script>
+<script>
+    verificar_autenticacao();
 </script>
 </body>
 </html>
